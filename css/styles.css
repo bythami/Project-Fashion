@@ -1,0 +1,119 @@
+body{
+    font-family: tahoma, Arial, sans-serif;
+    margin: 10%;
+}
+#principal{
+    background-image: url(../imagens/topo.jpg);
+    background-size: 100% 550px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+}
+nav{
+    background-color: #162028;
+    padding: 10px 20px 10px 20px;
+    background-image: url(../imagens/logo.png);
+    background-repeat: no-repeat;
+    background-position-x: 100px;
+    background-position-y: 50%;
+    text-align: right;
+    text-transform: uppercase;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding-left: 13px;
+}
+nav ul li a{
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+    color: #425564;
+    transition: color 0.3s linear;
+    letter-spacing: 5px;
+
+}
+nav ul li a:hover{
+    color: white;
+}
+.content-text{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+.content-text h1{
+    font-size: 36px;
+    font-weight:lighter;
+    color: #252525;
+}
+.content-text p{
+    color: #555
+}
+.content-card{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    color: #555;
+}
+.card{
+    float: left;
+    box-sizing: border-box;
+    width: 32%;
+    text-align: center;
+}
+.marca{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.personalidade{
+    margin-bottom: 50px;
+}
+.card1, .card2{
+    margin-right: 2%;
+}
+.card img{
+    width: 100%;
+    display: block;
+}
+
+.about{
+    background-color:#003d52;
+    background-image: url(../imagens/b1g_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    color: white;
+    padding: 100px;
+    clear: both;
+
+}
+.titulo h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: normal;
+}
+.about p{
+    text-align: left;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 50%;
+}
+.contato{
+    margin: 50px 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #143f52;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+footer{
+    background-color: rgb(9, 26, 39);
+    color: rgb(20, 99, 160);
+    padding: 15px;
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 15px;
+    margin-top: 50px;
+}
