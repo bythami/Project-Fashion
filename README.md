@@ -4,6 +4,7 @@
 
 <h4 align="center">
   Interface criada com o intuito de aprimorar habilidades com HTML e CSS.
+  Modelo feito no curso de Web Desing: HTML, CSS e Javascript, da Serfrontend Cursos na plataforma da UDEMY.
 </h4>
 
 ![Resultado final do projeto](imagens/fashion_final.jpg)
